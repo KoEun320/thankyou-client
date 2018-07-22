@@ -1,0 +1,51 @@
+.relativeBox{
+    position: relative;
+}
+.nonPublic {
+    bottom: 0;
+    left: 5px;
+    background-color: #fee133;
+	color: #000;
+	padding: 0 15px;
+	font-size: 12px;
+	line-height: 30px;
+    position: absolute;
+    border-radius: 5px;
+}
+.like::before {
+    cursor: pointer;
+    margin-right: 10px;
+    content: '\f119';
+    font-size: 13px;
+    color: red;
+    line-height: 16px;
+    position: relative;
+    font-family: 'icomoon';
+}
+
+.no-like::before {
+    cursor: pointer;
+    margin-right: 10px;
+    color: red;
+    content: '\e04a';
+    font-size: 13px;
+    line-height: 16px;
+    position: relative;
+    font-family: 'icomoon'
+}
+
+.imgfixed {
+    opacity: 0.6;
+    height: 300px !important;
+    overflow-y: hidden;
+}
+
+.editbtn{
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.editbtn > a{
+    margin-left: 10px;
+    color:  black;
+}

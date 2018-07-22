@@ -1,0 +1,10 @@
+.tg-cartitem .tg-contentbox > span::before {
+    cursor: pointer;
+    display: inline-block;
+    margin: 30px 10px 0 0;
+    content: '\e04a';
+    font-size: 13px;
+    line-height: 16px;
+    position: relative;
+    font-family: 'icomoon';
+}
