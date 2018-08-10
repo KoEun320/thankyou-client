@@ -14,3 +14,10 @@
 - 내가 쓴글 공개/비공개
 - 좋아요 기능
 - 랜덤으로 타인이 쓴 감사글 보기
+
+## Client-Side
+- React로 UI아키텍쳐 구현
+- Redux로 state관 
+- middleware : Redux-Thunk로 자유로운 dispatch 사용
+- middleware : Redux-logger로 개발시 action및 state debugging 간편화
+- CSS : BootStrap 프레임워크 사용
